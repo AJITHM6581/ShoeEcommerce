@@ -1,0 +1,26 @@
+.Navhome{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.log{
+  color: red;
+  float: right;
+  
+}
+
+input.mr-sm-2.form-control {
+  padding-right: 125px;
+}
+.search{
+  margin-right: 130px;
+}
+/* YourComponent.css */
+
+#logo{
+  margin-left: 0px;
+}
+
+.cart
+{width: 73px;
+}

@@ -1,0 +1,95 @@
+.inputbox1 {
+  position: relative;
+  margin: 0.01px 0;
+  width: 100%;
+  height: 60px;
+  border: none;
+}
+
+.inputbox1 label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 0.8em;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.inputbox1 input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-size: 1em;
+  padding: 0 35px 0 5px;
+  background-color: transparent;
+}
+
+.inputbox1 input:focus ~ label {
+  top: -10px;
+  font-size: 0.9em;
+  border: none;
+}
+
+.custom-input {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+label.mt-3 {
+  margin-right: 240px;
+}
+
+input#dob {
+  border-top-style: none;
+  border-right: none;
+  border-left: none;
+  margin-right: 250px;
+  margin-bottom: 40px;
+  margin-left: 130px;
+}
+
+input#sellerRadio {
+  margin-right: 386px;
+  margin-left: 11px;
+}
+
+.Dob {
+  position: relative;
+  margin: 0.01px 0;
+  width: 100%;
+  height: 60px;
+  border: none;
+}
+
+.Dob label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 0.8em;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.Dob input {
+  font-size: 1em;
+  padding: 0 35px 0 5px;
+  background-color: transparent;
+}
+
+.Dob input:focus ~ label {
+  top: -10px;
+  font-size: 0.9em;
+  border: none;
+}
+
+input#dob {
+  margin-top: 20px;
+}
+
+label#dob-label {
+  margin-left: 55px;
+}
+
+/* Responsive Styles */
